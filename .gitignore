@@ -1,0 +1,45 @@
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 🔑 Sensitive files
+*.pem
+*.key
+*.crt
+*.pfx
+*.jks
+.env
+config/secrets.yaml
+
+# 🛠 IDE settings
+.vscode/
+.idea/
+
+# 📦 Build/output folders
+dist/
+build/
+*.log
+*.sqlite3
+
+# 📁 Jupyter
+.ipynb_checkpoints/
+
+# 📊 Data / backups / raw files
+data/
+*.db
+*.sqlite
+*.csv
+*.tsv
+*.parquet
+*.xls
+*.xlsx
+*.bak
+*.zip
+*.gz
+*.json
+*.sav
+
+# 🔍 OS-specific
+.DS_Store
+Thumbs.db
