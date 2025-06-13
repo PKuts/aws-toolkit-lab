@@ -13,16 +13,20 @@ This repository contains a collection of Python scripts for interacting with AWS
 ## 📁 Project Structure
 aws-toolkit-lab/
 ├── config/
-│ ├── config.yaml # General non-sensitive configuration
-│ └── secrets.yaml # Sensitive data (ignored by Git)
+│   ├── config.yaml                  # General non-sensitive configuration
+│   └── secrets.yaml                 # Sensitive data (ignored by Git)
 ├── scripts/
-│ ├── ec2_paramiko_setup_python_env.py # Full Python setup on EC2 using Paramiko
-│ └── ec2_subprocess_run_command.py # Simple command execution using system SSH
-├── key/ # SSH private key folder (ignored)
-├── data/ # Optional: backup or exportable data (ignored)
+│   ├── __init__.py                  # Marks directory as a Python package
+│   ├── ec2_paramiko_setup_python_env.py   # Setup on EC2 using Paramiko
+│   └── ec2_subprocess_run_command.py      # Simple command execution using system SSH
+├── key/                             # SSH private key folder (ignored)
+│   └── somekey.pem
+├── data/                            # Optional: backup or exportable data (ignored)
+├── tests/
+│   └── test_dummy.py                # Placeholder for future tests
 ├── .gitignore
-└── README.md
-
+├── README.md
+└── requirements.txt
 ## 📜 Description of Key Scripts
 
 ### `ec2_paramiko_setup_python_env.py`
