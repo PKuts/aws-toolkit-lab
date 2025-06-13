@@ -75,6 +75,7 @@ commands = [
     "uname -a",
     "sudo yum update -y",
     "sudo yum install python3 -y",
+    "sudo yum install python3-pip -y",  # ← додано
     "python3 --version",
     "pip3 --version",
     f"mkdir -p {folder_name}",
