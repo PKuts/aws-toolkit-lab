@@ -8,7 +8,7 @@ This repository contains a collection of Python scripts for interacting with AWS
 - [WSL2](https://learn.microsoft.com/en-us/windows/wsl/)
 - `paramiko`, `pyyaml`
 - EC2 instance with SSH access
-- `~/.ssh/key.pem` (or other valid private key)
+- `~/.ssh/your_key.pem` (or other valid private key)
 
 ## 📁 Project Structure
 aws-toolkit-lab/
@@ -58,7 +58,7 @@ data/
 *.pem
 
 📄 License
-This project is licensed under the MIT License. See LICENSE for details. While it's not mandatory, you may mention this in the README — which we've done here for completeness and clarity.
+This project is licensed under the MIT License. 
 
 🤖 Note
 This project is built and tested under WSL2 on Windows. If running on native Linux or macOS, behavior is expected to be similar but path resolution and permissions may vary.
